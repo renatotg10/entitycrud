@@ -1,0 +1,47 @@
+﻿@using EmprestimoLivros.ViewModels
+
+@model RegisterViewModel
+@{
+    ViewBag.Title = "Registro de Usuário";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-sm-12 col-md-12 col-lg-4">
+            <h1 class="mb-3">
+                Criar uma conta
+            </h1>
+            <form method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+                <div class="mb-3">
+                    <label asp-for="Nome">Nome</label>
+                    <input type="text" asp-for="Nome" class="form-control" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Email">Email</label>
+                    <input type="text" asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Password">Senha</label>
+                    <input type="text" asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ConfirmPassword">Confirmar senha</label>
+                    <input type="text" asp-for="ConfirmPassword" class="form-control" />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn" style="background-color: #3c005a; color: white">Criar</button>
+
+
+            </form>
+        </div>
+    </div>
+</div>

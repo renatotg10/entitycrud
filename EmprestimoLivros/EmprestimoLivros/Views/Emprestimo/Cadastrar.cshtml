@@ -1,0 +1,71 @@
+﻿@model Emprestimo
+@{
+    ViewData["title"] = "Cadastrar Empréstimos";
+}
+
+<style>
+
+
+    .container-cadastro{
+        width: 580px;
+        background: rgba(234, 191, 255, 0.4);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 20px 19px;
+        margin: 0 auto;
+       
+    }
+    
+</style>
+<div class="container-cadastro">
+
+    <div class="mb-5 text-center">
+        <h1 style="background-color: #3c005a; color: white">Cadastro de Empréstimo</h1>
+    </div>
+
+    <form method="post" asp-controller="Emprestimo" asp-action="Cadastrar">
+        <div class="mb-3">
+            <label for="Recebedor" class="form-label">Recebedor:</label>
+            <input type="text" class="form-control" asp-for="Recebedor" id="recebedor" placeholder="Quem está recebendo o livro?">
+            <span class="text-danger" asp-validation-for="Recebedor"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Fornecedor" class="form-label">Fornecedor:</label>
+            <input type="text" class="form-control" asp-for="Fornecedor" id="fornecedor" placeholder="Quem está emprestando o livro?">
+            <span class="text-danger" asp-validation-for="Fornecedor"></span>
+
+        </div>
+
+        <div class="mb-3">
+            <label for="Livro" class="form-label">Livro: </label>
+            <input type="text" class="form-control" asp-for="NomeDoLivro" id="livro" placeholder="Qual o nome do livro?">
+            <span class="text-danger" asp-validation-for="NomeDoLivro"></span>
+
+        </div>
+
+        <div class="mb-3">
+            <label for="dataDevolucao" class="form-label">Data Prevista da Devolução: </label>
+            <input type="date" class="form-control" asp-for="DataDevolucaoPrevista" id="datadevolucao" placeholder="Qual a data prevista da devolução do livro?">
+
+        </div>
+        
+        <div class="mb-3">
+            <select class="form-select" asp-for="StatusEmprestimo" aria-label="Status do empréstimo:">
+                <option selected>Status do empréstimo: </option>
+                <option value="Pendente">Pendente</option>
+                <option value="Devolvido">Devolvido</option>
+                <option value="Atrasado">Atrasado</option>
+            </select>
+
+        </div>
+        <div class="d-flex gap-5 mt-5">
+            <button type="submit" class="btn w-50" style="background-color: #3c005a; color: white">Cadastrar</button>
+            <a class="btn w-50" style="background-color: #800080; color: white" asp-controller="Emprestimo" asp-action="Index">Voltar</a>
+        </div>
+       
+    </form>
+</div>
+
