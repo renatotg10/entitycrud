@@ -15,3 +15,7 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /workspace/entitycrud/OlaMundo
 build_property._RazorSourceGeneratorDebug = 
+
+[/workspace/entitycrud/OlaMundo/Views/Home/ListaUsuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9MaXN0YVVzdWFyaW9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
