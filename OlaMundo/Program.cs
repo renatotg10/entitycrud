@@ -1,17 +1,9 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
+﻿using System;
 
-public partial class Program
+class Program
 {
-    public static void Main(string[] args)
+    static void Main()
     {
-        CreateHostBuilder(args).Build().Run();
+        Console.WriteLine("Olá, Mundo!");
     }
-
-    public static IHostBuilder CreateHostBuilder(string[] args) =>
-        Host.CreateDefaultBuilder(args)
-            .ConfigureWebHostDefaults(webBuilder =>
-            {
-                webBuilder.UseStartup<Startup>();
-            });
 }

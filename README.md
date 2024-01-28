@@ -13,7 +13,7 @@ wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
 2. Dar permissão ao arquivo de instalação
 
 ```bash
-chmod +x dotnet-install.sh`
+chmod +x dotnet-install.sh
 ```
 
 3. Instalação do DOTNET a partir do arquivo. `Current` pode ser substituido pelo número da versão.
