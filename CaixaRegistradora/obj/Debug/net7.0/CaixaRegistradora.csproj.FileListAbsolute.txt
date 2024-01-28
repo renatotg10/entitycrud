@@ -1,0 +1,14 @@
+/workspace/entitycrud/CaixaRegistradora/bin/Debug/net7.0/CaixaRegistradora
+/workspace/entitycrud/CaixaRegistradora/bin/Debug/net7.0/CaixaRegistradora.deps.json
+/workspace/entitycrud/CaixaRegistradora/bin/Debug/net7.0/CaixaRegistradora.runtimeconfig.json
+/workspace/entitycrud/CaixaRegistradora/bin/Debug/net7.0/CaixaRegistradora.dll
+/workspace/entitycrud/CaixaRegistradora/bin/Debug/net7.0/CaixaRegistradora.pdb
+/workspace/entitycrud/CaixaRegistradora/obj/Debug/net7.0/CaixaRegistradora.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/entitycrud/CaixaRegistradora/obj/Debug/net7.0/CaixaRegistradora.AssemblyInfoInputs.cache
+/workspace/entitycrud/CaixaRegistradora/obj/Debug/net7.0/CaixaRegistradora.AssemblyInfo.cs
+/workspace/entitycrud/CaixaRegistradora/obj/Debug/net7.0/CaixaRegistradora.csproj.CoreCompileInputs.cache
+/workspace/entitycrud/CaixaRegistradora/obj/Debug/net7.0/CaixaRegistradora.dll
+/workspace/entitycrud/CaixaRegistradora/obj/Debug/net7.0/refint/CaixaRegistradora.dll
+/workspace/entitycrud/CaixaRegistradora/obj/Debug/net7.0/CaixaRegistradora.pdb
+/workspace/entitycrud/CaixaRegistradora/obj/Debug/net7.0/CaixaRegistradora.genruntimeconfig.cache
+/workspace/entitycrud/CaixaRegistradora/obj/Debug/net7.0/ref/CaixaRegistradora.dll

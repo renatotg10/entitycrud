@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspace/entitycrud/OlaMundo/OlaMundo.csproj": {}
+    "/workspace/entitycrud/CaixaRegistradora/CaixaRegistradora.csproj": {}
   },
   "projects": {
-    "/workspace/entitycrud/OlaMundo/OlaMundo.csproj": {
+    "/workspace/entitycrud/CaixaRegistradora/CaixaRegistradora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspace/entitycrud/OlaMundo/OlaMundo.csproj",
-        "projectName": "OlaMundo",
-        "projectPath": "/workspace/entitycrud/OlaMundo/OlaMundo.csproj",
+        "projectUniqueName": "/workspace/entitycrud/CaixaRegistradora/CaixaRegistradora.csproj",
+        "projectName": "CaixaRegistradora",
+        "projectPath": "/workspace/entitycrud/CaixaRegistradora/CaixaRegistradora.csproj",
         "packagesPath": "/home/gitpod/.nuget/packages/",
-        "outputPath": "/workspace/entitycrud/OlaMundo/obj/",
+        "outputPath": "/workspace/entitycrud/CaixaRegistradora/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/gitpod/.nuget/NuGet/NuGet.Config"

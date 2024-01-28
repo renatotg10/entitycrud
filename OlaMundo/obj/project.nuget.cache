@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rm6gsv9tIE/Qp5bgBHDciPqV9WuG8w8VVwcMTz56Bm3K3DjuQTRhupCSluVT8yvQrPFxkTCkWoCcQNWr0ExiZw==",
+  "dgSpecHash": "N3ZIooU8DYJz5x0xlplMdztkDVx8ag0V6qOyXm2lrt1knuIi4uTxXYwn9FoHOf4itnlFN2ZJP2vJyNog9DF56w==",
   "success": true,
   "projectFilePath": "/workspace/entitycrud/OlaMundo/OlaMundo.csproj",
-  "expectedPackageFiles": [
-    "/home/gitpod/.nuget/packages/microsoft.netcore.app.runtime.win-x64/7.0.15/microsoft.netcore.app.runtime.win-x64.7.0.15.nupkg.sha512",
-    "/home/gitpod/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/7.0.15/microsoft.aspnetcore.app.runtime.win-x64.7.0.15.nupkg.sha512",
-    "/home/gitpod/.nuget/packages/microsoft.netcore.app.host.win-x64/7.0.15/microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
